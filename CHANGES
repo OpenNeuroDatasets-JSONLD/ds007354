@@ -1,3 +1,5 @@
+2.0.3 2026-10-13
+  - Fix errors
 2.0.2 2026-10-08
   - Removed derivatives and all fmap directories.
 2.0.1 2026-07-06
