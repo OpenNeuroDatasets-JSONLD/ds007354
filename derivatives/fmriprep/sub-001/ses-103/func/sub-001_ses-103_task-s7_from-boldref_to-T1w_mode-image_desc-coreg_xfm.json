@@ -1,0 +1,12 @@
+{
+  "FinalCost": 0.437223,
+  "GeneratedBy": [
+    {
+      "Name": "bbregister",
+      "Version": "7.3.2"
+    }
+  ],
+  "Sources": [
+    "bids::sub-001/ses-103/func/sub-001_ses-103_task-s7_desc-coreg_boldref.nii.gz"
+  ]
+}

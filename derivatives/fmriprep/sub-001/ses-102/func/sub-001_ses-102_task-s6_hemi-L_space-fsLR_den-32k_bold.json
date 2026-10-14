@@ -1,0 +1,16 @@
+{
+  "DelayTime": 0.09375,
+  "Density": "32k",
+  "RepetitionTime": 1,
+  "SliceTimingCorrected": true,
+  "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_den-32k_hemi-L_midthickness.surf.gii",
+  "StartTime": 0.453,
+  "TaskName": "s6",
+  "Sources": [
+    "bids:raw:sub-001/ses-102/func/sub-001_ses-102_task-s6_bold.nii.gz"
+  ],
+  "NumberOfVertices": 32492,
+  "NumberOfTimepoints": 665,
+  "AnatomicalStructurePrimary": "CortexLeft",
+  "Description": "fMRIPrep 25.2.5 fsLR surface time series resampled with Connectome Workbench; includes all 32492 mesh vertices."
+}

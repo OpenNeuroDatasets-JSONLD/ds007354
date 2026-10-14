@@ -1,0 +1,16 @@
+{
+  "DelayTime": 0.09375,
+  "RepetitionTime": 1,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "Sources": [
+    "bids:raw:sub-001/ses-101/func/sub-001_ses-101_task-rest_bold.nii.gz",
+    "bids::sub-001/ses-101/func/sub-001_ses-101_task-rest_desc-coreg_boldref.nii.gz",
+    "bids::sub-001/ses-101/func/sub-001_ses-101_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-001/ses-101/func/sub-001_ses-101_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
+    "bids::provenance/sub-001_ses-101_task-rest/anat/sub-001_ses-101_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ],
+  "StartTime": 0.453,
+  "TaskName": "rest"
+}
