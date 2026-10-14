@@ -20,7 +20,9 @@
     "HowToAcknowledge": " ",
     "License": "CC0",
     "Name": "A 5.0T Ultra-High-Field fMRI Dataset for Naturalistic Visual Scene Processing",
-    "ReferencesAndLinks": [],
+    "ReferencesAndLinks": [
+        "Ye, G., Wang, M., Li, C. et al. A 5.0 T Ultra-High-Field fMRI Dataset for Naturalistic Visual Scene Processing. Scientific Data 13, 1370 (2026). https://doi.org/10.1038/s41597-026-07885-x"
+    ],
     "EthicsApprovals": [
         "approval number: XJTU1AF2026LSYY-16"
     ],
