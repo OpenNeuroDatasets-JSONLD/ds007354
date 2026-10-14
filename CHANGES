@@ -1,3 +1,6 @@
+2.0.4 2026-10-14
+  - Replaced four truncated BOLD NIfTI files from verified raw DICOM conversion
+  - Updated matching BIDS JSON sidecars
 2.0.3 2026-10-13
   - Fix errors
 2.0.2 2026-10-08
