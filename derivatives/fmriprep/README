@@ -1,18 +1,27 @@
-NVD fMRIPrep 25.2.5 derivatives
+NVD fMRIPrep 25.2.5 final functional derivatives
 
-20 participants; 34 runs each (33 image-viewing runs and one resting run).
-No fieldmap/susceptibility distortion correction was applied (--ignore fieldmaps).
-One T1w acquisition (ses-101) per subject was used for all functional sessions.
-FreeSurfer reconstructions were reused; per-BOLD fMRIPrep anatomical processing
-was independently executed. The standard anatomical tree is from the rest run.
-Exact anatomy/transforms referenced by individual functional sidecars are kept
-under provenance/<run-key>/anat and addressed by bids::provenance/ URIs. They are not
-silently replaced by the representative anatomical tree.
-T1w, MNI152NLin2009cAsym, fsLR 91k CIFTI, fsLR 32k left/right GIFTI, masks,
-boldrefs, transformations, and confounds retain original functional entities.
-The 91k CIFTI includes cortex at fsLR32k and MNI152NLin6Asym subcortical voxels.
-Frame counts vary by acquisition; TR is 1 s. Confound initial n/a is preserved.
-provenance/*_run_inventory.tsv records actual frame counts and anatomical source.
-Work directories, intermediate native surfaces, scheduler logs, failed products,
-software licenses and credentials are excluded. Binary contents are unmodified.
+This directory publishes only the result classes described in the dataset
+README: T1w and MNI152NLin2009cAsym preprocessed BOLD NIfTI time series,
+fsLR 91k CIFTI time series, left/right fsLR 32k GIFTI time series, confound
+tables, and their JSON metadata. There are 20 participants and 34 runs per
+participant (33 task runs and one rest run). Original entities are preserved.
+
+No fieldmap/susceptibility distortion correction was applied (--ignore
+fieldmaps). The one raw T1w acquisition in ses-101 was used for all functional
+sessions; FreeSurfer reconstructions were reused. The original per-run
+fMRIPrep anatomical processing and resampling are unchanged. Image contents
+are hard-linked from the completed outputs and retain their original SHA256.
+TR is 1 s; actual frame counts vary by acquisition. The original StartTime,
+spatial references and confound definitions are retained. Initial n/a
+confound values are retained. The 91k CIFTI uses fsLR32k cortex and
+MNI152NLin6Asym subcortical voxels.
+
+Functional image Sources identify the public raw BOLD and the shared raw
+T1w, together with any original public TemplateFlow sources. This curated
+release omits intermediate references/transforms, all anatomical derivative
+trees, masks, segmentation, native surface outputs, reports, work directories
+and scheduler files. The complete computational outputs stay on the processing
+server; omitted intermediate paths are not presented as available dataset
+Sources. Original raw data and events are unchanged.
+
 Source: OpenNeuro ds007354 snapshot 2.0.5, CC0.
