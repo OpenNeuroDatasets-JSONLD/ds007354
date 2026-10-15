@@ -5,12 +5,10 @@
   "SliceTimingCorrected": true,
   "Sources": [
     "bids:raw:sub-001/ses-301/func/sub-001_ses-301_task-s1_bold.nii.gz",
-    "bids::sub-001/ses-301/func/sub-001_ses-301_task-s1_desc-coreg_boldref.nii.gz",
-    "bids::sub-001/ses-301/func/sub-001_ses-301_task-s1_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
-    "bids::sub-001/ses-301/func/sub-001_ses-301_task-s1_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
-    "bids::provenance/sub-001_ses-301_task-s1/anat/sub-001_ses-101_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:raw:sub-001/ses-101/anat/sub-001_ses-101_T1w.nii.gz",
     "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
   ],
   "StartTime": 0.453,
-  "TaskName": "s1"
+  "TaskName": "s1",
+  "SourcesDescription": "Sources identify the public raw BOLD and the one shared raw T1w acquisition used to generate this derivative. Intermediate anatomical images, reference images and transforms are not included in this final-results publication. Processing values and spatial metadata are retained from fMRIPrep."
 }
