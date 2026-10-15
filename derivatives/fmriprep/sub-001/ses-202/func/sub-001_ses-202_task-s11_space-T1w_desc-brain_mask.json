@@ -1,8 +1,0 @@
-{
-  "Sources": [
-    "bids:raw:sub-001/ses-202/func/sub-001_ses-202_task-s11_bold.nii.gz",
-    "bids::sub-001/ses-202/func/sub-001_ses-202_task-s11_desc-coreg_boldref.nii.gz",
-    "bids::sub-001/ses-202/func/sub-001_ses-202_task-s11_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
-    "bids::sub-001/ses-202/func/sub-001_ses-202_task-s11_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt"
-  ]
-}
